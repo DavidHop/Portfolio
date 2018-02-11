@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/wood.jpg");
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.main-text {
+  margin: 0 auto;
+}
+
+.column {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  border-bottom: solid;
+  border-color: #000000;
+  border-width: thin;
+}
+
+.header {
+  margin: 10% auto 5% auto;
+  border: solid;
+  border-color: #000000;
+}
+
+.email
+.phone {
+  float: left;
+}
+
+
+/* Typography */
+
+body {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.header {
+  text-transform: none;
+  text-transform: uppercase;
+}
+
+.email
+.phone {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  text-transform: inherit;
+}
+
+.main-text {
+  font-weight: 400;
+}
