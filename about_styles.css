@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-top: 87px;
+}
+
 .container {
   margin: 0 auto;
   width: 80%;
@@ -41,6 +45,45 @@
 #skill-list {
   margin-left: 50px;
 }
+
+.nav ul li {
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+}
+
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+.nav a {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: 30px;
+  padding: 20px;
+  float: left;
+  font-size: 1.2em;
+}
+
+.nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+    font-size: 1em;
+}
+
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+  -webkit-transition: color 600ms;
+}
+
+
 
 /* Typography */
 
@@ -78,4 +121,9 @@ body {
 .skills{
   background-color: #5AD4c2;
   color: #fff;
+}
+
+.nav {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+
 }
