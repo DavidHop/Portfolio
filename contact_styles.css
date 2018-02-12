@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-  margin: 10% auto 5% auto;
+  margin: 170px auto 30px auto;
   border: solid;
   border-color: #000000;
 }
@@ -34,6 +34,44 @@ body {
 .email
 .phone {
   float: left;
+}
+
+
+.nav ul li {
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+}
+
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+.nav a {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: 30px;
+  padding: 20px;
+  float: left;
+  font-size: 1.2em;
+}
+
+.nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+    font-size: 1em;
+}
+
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+  -webkit-transition: color 600ms;
 }
 
 
