@@ -6,3 +6,146 @@
 .jumbotron p {
 	color: white;
 }
+
+/* Contact page */
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#contact {
+  background-image: url("../img/wood.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+#faq {
+  background-image: url("../img/wood.jpg");
+  background-size: cover;
+  height: 100%;
+  padding-top: 105px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.main-text {
+  margin: 0 auto;
+}
+
+.column {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+/* .column p {
+  text-align: left;
+} */
+
+.contact-me p {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+  margin: 170px auto 30px auto;
+  border: solid;
+  border-color: #000000;
+}
+
+.questions {
+  margin: 65px auto 30px auto;
+  border: solid;
+  border-color: #000000;
+}
+
+/* .email
+.phone {
+  float: left;
+} */
+
+.nav ul li {
+  display: inline-block;
+  float: right;
+  margin-right: 100px;
+}
+
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+.nav a {
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: 30px;
+  padding: 20px;
+  float: left;
+  font-size: 1.2em;
+}
+
+.nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+    font-size: 1em;
+}
+
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+  -webkit-transition: color 600ms;
+}
+
+/* .panel-title {
+
+} */
+
+.panel-body {
+  background-color: black;
+  color: white;
+}
+
+
+/* Typography Contact Page*/
+
+body {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.header {
+  text-transform: none;
+  text-transform: uppercase;
+}
+
+.email
+.phone {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  text-transform: inherit;
+}
+
+.main-text {
+  font-weight: 400;
+}
