@@ -22,33 +22,20 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbar">
+    <div class="navbar">
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!-- <div class="jumbotron">
-      <div class="container">
-        <h1>David Hopkins</h1>
-        <p><strong>Boston based junior developer.</strong></p>
-        <p>Rock climber, Gamer, PC enthusiast.</p>
-        <a href="about.html">About Me</a>
-        <br>
-        <a href="contact.html">Contact</a>
-        <br>
-        <a href="faq.html">FAQ</a>
-      </div>
-    </div> -->
-    <!-- jumbotron -->
-    <div class="nav">
       <a href="index.html">Home</a>
       <ul>
         <li>
-          <a href="about.html">About</a>
-          <a href="#">Work</a>
-          <a href="contact.html">Contact</a>
-          <a href="faq.html">FAQ</a>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+          <a href="#faq">FAQ</a>
         </li>
       </ul>
     </div><!-- end nav -->
+
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -65,25 +52,25 @@
             <h2>David Hopkins</h2>
             <p>Boston based junior developer.</p>
             <p>Rock climber, Gamer, PC enthusiast.</p>
-          </div>
-        </div>
+          </div><!-- /carousel-caption -->
+        </div><!-- /item active -->
         <div class="item">
           <img src="img/imac.jpg" alt="...">
           <div class="carousel-caption">
             <h2>David Hopkins</h2>
             <p>Boston based junior developer.</p>
             <p>Rock climber, Gamer, PC enthusiast.</p>
-          </div>
-        </div>
+          </div><!-- /carousel caption -->
+        </div><!-- /item -->
         <div class="item">
           <img src="img/typewriter.jpg" alt="...">
           <div class="carousel-caption">
             <!-- <h2>David Hopkins</h2>
             <p>Boston based junior developer.</p>
             <p>Rock climber, Gamer, PC enthusiast.</p> -->
-          </div>
-        </div>
-      </div>
+          </div><!-- /carousel caption -->
+        </div><!-- /item -->
+      </div><!-- /carousel-inner -->
 
       <!-- Controls -->
       <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -94,10 +81,11 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
-    <div class="container-fluid">
+    </div><!-- /carousel-example-generic -->
 
-      <!-- Example row of columns -->
+    <!-- Bio Page -->
+    <div class="container-fluid">
+      <!-- Work Rows -->
       <div class="row">
         <div class="col-md-4">
           <h2>Portfolio Concept</h2>
@@ -118,8 +106,9 @@
 
       <br>
       <br>
-      <br>
 
+
+      <!-- Work Page -->
       <h1 id="workhead">Work</h3>
       <div class="row" id="work">
         <div class="col-xs-12 col-sm-6 col-md-3"><img src="img/mountain.jpg" class="img-responsive"></div>
@@ -130,9 +119,137 @@
         <div class="col-xs-12 col-sm-6 col-md-3"><img src="img/mountain.jpg" class="img-responsive"></div>
         <div class="col-xs-12 col-sm-6 col-md-3"><img src="img/mountain.jpg" class="img-responsive"></div>
         <div class="col-xs-12 col-sm-6 col-md-3"><img src="img/mountain.jpg" class="img-responsive"></div>
-      </div>
+      </div><!-- /row -->
+    </div><!-- /container-fluid -->
 
-    </div> <!-- /container-fluid -->
+
+    <!-- About Page -->
+    <div class="container-fluid" id="about">
+      <div class="header">
+        <h1>About Me</h1>
+      </div><!-- end header -->
+      <div class="image column">
+        <img src="img/mypicture.jpg" alt="mypicture">
+      </div><!-- end image -->
+      <div class="intro column">
+        <h2>Introduction</h2>
+        <p>Hi, My name is David Hopkins. I am a 27 year old junior developer. I live in Norwood, Massachusetts.</p>
+      </div><!-- end intro -->
+      <div class="skills column">
+        <h3>My Skills</h3>
+          <ul id="skill-list">
+            <li>HTML/CSS</li>
+            <li>Web Design</li>
+            <li>Responsive Web Design</li>
+          </ul>
+      </div> <!-- end skill-->
+      <div class="main-text">
+        <h3>My Story</h3>
+        <p>During college I worked as a server at an oceanside restaurant. Since then, I've been working at a manufacturing company while I tried to figure out what career path I was going to take. My girlfriend brought up the idea that I should get into web development since I have such a passion for computers and I am a natural problem solver. I have been self teaching for the past year and decided I needed a bit more structure and guidance. I was refered to CareerFoundry, where I've been polishing my skills to finally make my career shift to a web developer</p>
+      </div> <!-- end main-text -->
+    </div><!-- end about page -->
+
+    <div class="container-fluid" id="faq">
+      <div class="container questions">
+        <h1>Frequently Ask Questions</h1>
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-plus"></span>
+                  Why did you decide to become a web developer?
+                </a>
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
+                I am able to use my love for computers and content creation to help others with their website needs.
+              </div><!-- end panel-body -->
+            </div><!-- end collapseOne -->
+          </div><!-- end panel panel-default -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-plus"></span>
+                  What is your design process?
+                </a>
+              </h4>
+            </div><!-- end panel-heading -->
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+                Planning, Design, Development, Launch, Post-Launch
+              </div><!-- end panel-body -->
+            </div><!-- end collapseTwo -->
+          </div><!-- end panel panel-default -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-plus"></span>
+                  Who are your clients?
+                </a>
+              </h4>
+            </div><!-- end panel-heading -->
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                I currently have no clients now.
+              </div><!-- end panel-body -->
+            </div><!-- end collapseThree -->
+          </div><!-- end panel-default -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-plus"></span>
+                  What is your average project turnaround?
+                </a>
+              </h4>
+            </div><!-- end panel-heading -->
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+                My average project turnaround is about a month.
+              </div><!-- end panel-body -->
+            </div><!-- end collapseFour -->
+          </div><!-- end panel-default -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-plus"></span>
+                  Where can I reach you?
+                </a>
+              </h4>
+            </div><!-- end panel-heading -->
+            <div id="collapseFive" class="panel-collapse collapse">
+              <div class="panel-body">
+                If you go to my Contact Page, you can find my email and cell phone there.
+              </div>
+            </div><!-- end collapseFive -->
+          </div><!-- end panel-default -->
+        </div><!-- end panel-group -->
+      </div><!-- end container -->
+    </div><!-- end faq container -->
+
+    <!-- Contact Page -->
+    <div class="container-fluid" id="contact">
+      <div class="wrapper contact-me">
+        <div class="header column">
+          <h1>Contact Me</h1>
+        </div>  <!-- end header column -->
+        <div class="email column">
+          <p>
+            <span class="glyphicon glyphicon-envelope"></span> DavidLucasHopkins@gmail.com
+          </p>
+        </div><!-- end email -->
+        <div class="phone column">
+          <p>
+            <span class="glyphicon glyphicon-phone"></span> 781-635-8297
+          </p>
+        </div><!-- end phone -->
+        <div class="main-text column">
+          <p>Call or email me for any business inquiries</p>
+        </div><!-- end main-text -->
+      </div><!-- end wrapper contact-me -->
+    </div><!-- end contact page -->
+
 
 
     <!-- ============================= -->
