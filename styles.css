@@ -104,13 +104,13 @@ html, body {
   float: left;
 } */
 
-.navbar ul li {
+.nav ul li {
   display: inline-block;
   float: right;
   margin-right: 100px;
 }
 
-.navbar {
+.nav {
   background-color: black;
   position: fixed;
   width: 100%;
@@ -118,7 +118,7 @@ html, body {
   z-index: 1;
 }
 
-.navbar a {
+.nav a {
   display: inline-block;
   color: white;
   text-transform: uppercase;
@@ -129,14 +129,14 @@ html, body {
   font-size: 1.2em;
 }
 
-.navbar ul li a {
+.nav ul li a {
   color: #B9B9B9;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 1em;
 }
 
-.navbar a:hover {
+.nav a:hover {
   /* color: #8D29F0; */
   color: #EBC082;
   text-decoration: none;
@@ -364,7 +364,6 @@ h2  {
 body {
   background-color: #B9B9B9;
   color: black;
-  position: relative;
 }
 
 .skills{
