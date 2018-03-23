@@ -134,14 +134,10 @@ html, body {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 1em;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+
 }
 
-.nav a:hover {
-  /* color: #8D29F0; */
-  color: #EBC082;
-  text-decoration: none;
-  -webkit-transition: color 600ms;
-}
 
 .carousel {
   margin-left: -15px;
@@ -316,6 +312,14 @@ body {
 
 
 /* Typography */
+
+
+.nav a:hover {
+  /* color: #8D29F0; */
+  color: #EBC082;
+  text-decoration: none;
+  -webkit-transition: color 600ms;
+}
 
 h1,
 h2,
