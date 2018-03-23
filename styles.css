@@ -4,16 +4,6 @@ body {
 
 }
 
-.jumbotron {
-   background-image: url("../img/landscape.jpg");
-   background-size: cover;
-}
-
-.jumbotron p {
-	color: white;
-}
-
-
 * {
   box-sizing: border-box;
 }
@@ -21,33 +11,32 @@ body {
 .container {
   margin: 0px auto;
   width: 80%;
-
 }
 
-.container-fluid {
+.anchor {
+  padding-top: 110px;
+  margin: 0px auto;
+  width: 80%;
+}
+
+/* #container  {
+    background-image: url("../img/greywood.jpg");
+
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding:100px;
+    padding-top: 50px;
+    height: 400px;
+} */
+
+/* .container-fluid {
   margin: 86px;
   padding-left: 0px;
   padding-right: 0px;
 
-}
+} */
 
-
-#contact {
-  /* background-image: url("../img/wood.jpg");
-  background-size: cover;
-  height: 100%; */
-}
-
-#faq {
-  /* background-image: url("../img/wood.jpg");
-  background-size: cover;
-  height: 100%;
-  padding-top: 105px; */
-}
-
-#about{
-
-}
 
 html, body {
   height: 100%;
@@ -71,9 +60,9 @@ html, body {
 
 }
 
-/* .column p {
+.column p {
   text-align: left;
-} */
+}
 
 .contact-me p {
     border-bottom: 1px solid black;
@@ -97,39 +86,32 @@ html, body {
   border-color: #000000;
 }
 
-
-
-/* .email
-.phone {
-  float: left;
-} */
-
-.nav ul li {
+/* .navbar ul li {
   display: inline-block;
   float: right;
   margin-right: 100px;
-}
+} */
 
-.nav {
+/* .nav {
   background-color: black;
   position: fixed;
   width: 100%;
   top: 0px;
   z-index: 1;
-}
+} */
 
-.nav a {
+.navbar a {
   display: inline-block;
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-left: 30px;
-  padding: 20px;
+  /* padding: 20px; */
   float: left;
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
 }
 
-.nav ul li a {
+.navbar ul li a {
   color: #B9B9B9;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -138,6 +120,18 @@ html, body {
 
 }
 
+.DavidHopkins {
+  text-transform: uppercase;
+  float: left;
+}
+
+.DavidHopkins a {
+  color: white;
+}
+
+.navbar-header {
+  float: left;
+}
 
 .carousel {
   margin-left: -15px;
@@ -185,60 +179,13 @@ html, body {
 
 
 
-/* Typography Contact Page*/
-
-h1 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-  letter-spacing: .1em;
-}
-
-body {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: 400;
-}
-
-.contact-me {
-  color: white;
-}
-
-.questions {
-  color: white;
-}
-
-.header {
-  text-transform: none;
-  text-transform: uppercase;
-}
-
-.email
-.phone {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
-  text-transform: inherit;
-}
-
-.main-text {
-  font-weight: 400;
-}
-
 /* About Me Styles */
 
-* {
-  box-sizing: border-box;
-}
 
 #about body {
   padding-top: 30px;
 }
 
-.container {
-  margin: 0 auto;
-  width: 80%;
-}
 
 #about .header {
   text-align: center;
@@ -271,60 +218,64 @@ body {
 #skill-list {
   margin-left: 50px;
 }
-/*
-.nav ul li {
-  display: inline-block;
-  float: right;
-  margin-right: 100px;
-}
-
-.nav {
-  background-color: black;
-  position: fixed;
-  width: 100%;
-  top: 0px;
-}
-
-.nav a {
-  display: inline-block;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-left: 30px;
-  padding: 20px;
-  float: left;
-  font-size: 1.2em;
-}
-
-.nav ul li a {
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-    font-size: 1em;
-}
-
-.nav a:hover {
-  color: #ff0;
-  text-decoration: none;
-  -webkit-transition: color 600ms;
-} */
-
 
 
 /* Typography */
+/* Typography Contact Page*/
+
+h1 {
+  text-align: center;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: .1em;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+h3 {
+  text-align: center;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  background-color: #B9B9B9;
+  color: black;
+}
+
+.contact-me {
+  color: white;
+}
+
+.questions {
+  color: white;
+}
+
+.header {
+  text-transform: none;
+  text-transform: uppercase;
+}
+
+.email
+.phone {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  text-transform: inherit;
+}
+
+.main-text {
+  font-weight: 400;
+}
 
 
-.nav a:hover {
-  /* color: #8D29F0; */
+.nav>li>a:hover {
   color: #EBC082;
   text-decoration: none;
   -webkit-transition: color 600ms;
-}
-
-h1,
-h2,
-h3 {
-  font-family: Futura, Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -335,10 +286,6 @@ li {
   font-family: Georgia, Times, serif;
 }
 
-h2  {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  font-weight: 100;
-}
 
 .intro p {
   font-family: Futura, Helvetica, Arial, sans-serif;
@@ -365,11 +312,6 @@ h2  {
   font-weight: 100;
 }
 
-body {
-  background-color: #B9B9B9;
-  color: black;
-}
-
 .skills{
   /* background-color: #5AD4c2; */
   color: black;
@@ -377,8 +319,3 @@ body {
   font-size: 1.2em;
   font-weight: 100;
 }
-/*
-.nav {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-
-} */
