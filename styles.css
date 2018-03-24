@@ -37,6 +37,13 @@ body {
 
 } */
 
+#about,
+#work,
+#faq,
+#contact {
+  padding-top: 50px;
+}
+
 
 html, body {
   height: 100%;
@@ -73,10 +80,11 @@ html, body {
 }
 
 .header {
-  margin: 170px auto 30px auto;
+  margin: 50px auto 30px auto;
   border: solid;
   border-color: #000000;
 }
+
 
 
 
@@ -106,9 +114,13 @@ html, body {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-left: 30px;
-  /* padding: 20px; */
+  /* padding-right: : 20px; */
   float: left;
   /* font-size: 1.2em; */
+}
+
+.navbar ul li{
+  padding-right: 50px;
 }
 
 .navbar ul li a {
@@ -117,6 +129,7 @@ html, body {
   letter-spacing: 0.05em;
   font-size: 1em;
   font-family: Futura, Helvetica, Arial, sans-serif;
+  /* padding-right: 20px; */
 
 }
 
@@ -183,7 +196,7 @@ html, body {
 
 
 #about body {
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 
 
@@ -198,7 +211,7 @@ html, body {
 }
 
 #about .main-text {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   clear: both;
 
 }
@@ -272,7 +285,7 @@ body {
 }
 
 
-.nav>li>a:hover {
+.navbar-nav>li>a:hover {
   color: #EBC082;
   text-decoration: none;
   -webkit-transition: color 600ms;
