@@ -10,25 +10,40 @@ body {
 
 .container {
   margin: 0px auto;
-  width: 80%;
+  width: 100%;
+
 }
 
 .anchor {
-  padding-top: 110px;
+  /* padding-top: 110px; */
   margin: 0px auto;
-  width: 80%;
+  width: 100%;
+  /* padding: 110px 0px; */
+
 }
 
-/* #container  {
-    background-image: url("../img/greywood.jpg");
+#about  {
+    background-image: url("../img/night.jpeg");
 
     background-attachment: fixed;
     background-size: cover;
     color: white;
     padding:100px;
     padding-top: 50px;
-    height: 400px;
-} */
+    height: 100%;
+    width: 100%;
+}
+#contact  {
+    background-image: url("../img/sky.jpeg");
+
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding:100px;
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+}
 
 /* .container-fluid {
   margin: 86px;
@@ -39,9 +54,17 @@ body {
 
 #about,
 #work,
-#faq,
+#faq {
+  padding: 50px 100px;
+
+}
+
 #contact {
-  padding-top: 50px;
+  padding: 70px 100px 200px 100px;
+}
+
+.goals {
+  padding: 50px 100px;
 }
 
 
@@ -50,6 +73,8 @@ html, body {
   background-color: #B9B9B9;
 
 }
+
+
 
 .wrapper {
   margin: 0 auto;
@@ -82,7 +107,7 @@ html, body {
 .header {
   margin: 50px auto 30px auto;
   border: solid;
-  border-color: #000000;
+  border-color: #FFFFFF;
 }
 
 
@@ -178,15 +203,15 @@ html, body {
   padding: 0px;
 }
 
- .col-xs-12 {
+ .row .col-xs-12 {
    margin: 30px auto;
  }
 
-.col-sm-6 {
+ .row .col-sm-6 {
   margin: 30px auto;
 }
 
-.col-md-3 {
+ .row .col-md-3 {
   margin: 30px auto;
 }
 
@@ -285,7 +310,7 @@ body {
 }
 
 
-.navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover {
   color: #EBC082;
   text-decoration: none;
   -webkit-transition: color 600ms;
@@ -318,6 +343,7 @@ li {
   /* text-transform: uppercase; */
   font-family: Futura, Helvetica, Arial, sans-serif;
   font-weight: 100;
+  color: white;
 }
 
 #skill-list li {
@@ -327,7 +353,7 @@ li {
 
 .skills{
   /* background-color: #5AD4c2; */
-  color: black;
+  color: white;
   font-family: Futura, Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   font-weight: 100;
