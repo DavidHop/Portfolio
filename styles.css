@@ -1,4 +1,3 @@
-
 body {
   position: relative;
 
@@ -22,59 +21,31 @@ body {
 
 }
 
-#about  {
-    background-image: url("../img/night.jpeg");
-
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    padding:100px;
-    padding-top: 50px;
-    height: 100%;
-    width: 100%;
+#about {
+  background-image: url("../img/night.jpeg");
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+  color: white;
 }
+
 #contact  {
-    background-image: url("../img/sky.jpeg");
-
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    padding:100px;
-    padding-top: 50px;
-    height: 100%;
-    width: 100%;
-}
-
-/* .container-fluid {
-  margin: 86px;
-  padding-left: 0px;
-  padding-right: 0px;
-
-} */
-
-#about,
-#work,
-#faq {
-  padding: 50px 100px;
-
-}
-
-#contact {
-  padding: 70px 100px 200px 100px;
+  background-image: url("../img/sky.jpeg");
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  padding: 50px 0;
 }
 
 .goals {
   padding: 50px 100px;
 }
 
-
 html, body {
   height: 100%;
   background-color: #B9B9B9;
 
 }
-
-
 
 .wrapper {
   margin: 0 auto;
@@ -97,21 +68,16 @@ html, body {
 }
 
 .contact-me p {
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
-  margin: 50px auto 30px auto;
-  border: solid;
-  border-color: #FFFFFF;
+  border: 3px solid #FFF;
 }
-
-
-
 
 .questions {
   margin: 65px auto 30px auto;
@@ -119,33 +85,10 @@ html, body {
   border-color: #000000;
 }
 
-/* .navbar ul li {
-  display: inline-block;
-  float: right;
-  margin-right: 100px;
-} */
-
-/* .nav {
-  background-color: black;
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  z-index: 1;
-} */
-
 .navbar a {
-  display: inline-block;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
   margin-left: 30px;
-  /* padding-right: : 20px; */
-  float: left;
-  /* font-size: 1.2em; */
-}
-
-.navbar ul li{
-  padding-right: 50px;
 }
 
 .navbar ul li a {
@@ -154,22 +97,15 @@ html, body {
   letter-spacing: 0.05em;
   font-size: 1em;
   font-family: Futura, Helvetica, Arial, sans-serif;
-  /* padding-right: 20px; */
-
 }
 
-.DavidHopkins {
+.david-hopkins {
   text-transform: uppercase;
-  float: left;
 }
 
-.DavidHopkins a {
+/* .DavidHopkins a {
   color: white;
-}
-
-.navbar-header {
-  float: left;
-}
+} */
 
 .carousel {
   margin-left: -15px;
@@ -179,11 +115,6 @@ html, body {
 .carousel-caption {
   color: black;
 }
-
-/* .panel-title {
-
-} */
-
 
 .panel-body {
   background-color: grey;
@@ -203,26 +134,21 @@ html, body {
   padding: 0px;
 }
 
- .row .col-xs-12 {
-   margin: 30px auto;
- }
-
- .row .col-sm-6 {
+.row .col-xs-12 {
   margin: 30px auto;
 }
 
- .row .col-md-3 {
+.row .col-sm-6 {
+  margin: 30px auto;
+}
+
+.row .col-md-3 {
   margin: 30px auto;
 }
 
 
 
 /* About Me Styles */
-
-
-#about body {
-  /* padding-top: 30px; */
-}
 
 
 #about .header {
@@ -236,7 +162,6 @@ html, body {
 }
 
 #about .main-text {
-  /* padding-top: 60px; */
   clear: both;
 
 }
