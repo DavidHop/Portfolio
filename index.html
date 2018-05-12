@@ -16,6 +16,19 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <!-- Twitter Javascript -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    <!-- Facebook JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <!-- Custom styles for this template go here -->
     <link rel="stylesheet" href="css/styles.css">
 
@@ -27,9 +40,9 @@
 
   </head>
 
-  <body data-spy="scroll" data-target=".nav">
+  <body>
     <!-- navbar start -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,7 +63,7 @@
           </ul>
         </div><!-- end nav -->
       </div><!-- end nav container -->
-    </div><!-- end navbar -->
+    </nav><!-- end navbar -->
 
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -88,7 +101,7 @@
         </div><!-- /item -->
       </div><!-- /carousel-inner -->
 
-      <!-- Controls -->
+  <!-- Controls -->
       <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -100,8 +113,7 @@
     </div><!-- /carousel-example-generic -->
 
 
-    <!-- Bio Page -->
-
+<!-- Bio Page -->
     <div class="container anchor">
       <!-- Work Rows -->
       <div class="goals">
@@ -125,7 +137,7 @@
       </div><!-- end goals -->
     </div><!-- end first container -->
 
-    <!-- About Page -->
+<!-- About Page -->
     <div id="about">
       <div class="container">
         <div class="header">
@@ -156,7 +168,7 @@
     </div><!-- end about page -->
 
 
-    <!-- Work Page -->
+<!-- Work Page -->
       <div id="work">
         <div class="container">
           <h1 id="workhead">Work</h1>
@@ -174,7 +186,7 @@
       </div>
 
 
-
+<!-- **** Faq **** -->
       <div id="faq">
         <div class="container questions">
           <h1>Frequently Ask Questions</h1>
@@ -254,7 +266,7 @@
       </div><!-- end faq container -->
 
 
-    <!-- Contact Page -->
+<!-- Contact Page -->
     <div id="contact">
       <div class="container">
         <div class="text-center contact-me">
@@ -278,6 +290,23 @@
         </div><!-- end wrapper contact-me -->
       </div><!-- end contact page -->
     </div><!-- end container -->
+
+<!-- **** Video **** -->
+    <div class="container" id="video">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UR_yCO7-aIU" frameborder="0" allowfullscreen></iframe>
+      </div><!-- end responsive embed -->
+    </div><!-- end container -->
+
+<!-- **** Footer **** -->
+    <footer>
+      <a href="https://twitter.com/TheDevDave?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TheDevDave</a>
+      <br>
+      <div class="fb-like" data-href="https://www.facebook.com/The-Dev-Dave-202199463727881/?modal=admin_todo_tour" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+      <p>&copy; David Hopkins 2018</p>
+
+
+    </footer>
 
 
     <!-- ============================= -->
