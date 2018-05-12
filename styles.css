@@ -49,6 +49,8 @@ body {
   color: white;
   width: 100%;
   height: auto;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
 }
 /* @media only screen and (min-device-width: 400px) {
     #about {
@@ -67,6 +69,7 @@ body {
   padding: 50px 0;
   width: 100%;
   height: auto;
+  border-top: 1.5px solid black;
 }
 
 /* @media only screen and (min-device-width: 400px) {
@@ -78,6 +81,8 @@ body {
 
 .goals {
   padding: 50px 0;
+  border-top: 1.5px solid #B9B9B9;
+  border-bottom: 1.5px solid #B9B9B9;
 }
 
 html, body {
@@ -143,6 +148,10 @@ html, body {
   font-family: Futura, Helvetica, Arial, sans-serif;
 }
 
+.footer a:visited {
+       color: #ff0000;
+}
+
 .david-hopkins {
   text-transform: uppercase;
 }
@@ -154,6 +163,7 @@ html, body {
 .carousel {
   margin-left: -15px;
   margin-right: -15px;
+  border-bottom: 1.5px solid black;
 }
 
 .carousel-caption {
@@ -172,6 +182,8 @@ html, body {
 
 #work {
   padding-top: 80px;
+  border-bottom: 1.5px solid black;
+
 }
 
 #workhead {
@@ -227,6 +239,7 @@ html, body {
 #about .main-text {
   clear: both;
 
+
 }
 
 #about .intro {
@@ -246,6 +259,15 @@ html, body {
   margin-left: 50px;
 }
 
+/* **** Footer **** */
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align:center;
+  color: #B9B9B9;
+  border-top: 1.5px solid #B9B9B9;
+}
 
 /* Typography */
 /* Typography Contact Page*/
