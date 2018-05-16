@@ -70,6 +70,15 @@ body {
   width: 100%;
   height: auto;
   border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+
+.contact-form {
+  padding-top: 25px;
+}
+
+.message-box {
+  margin-bottom: 5px;
 }
 
 /* @media only screen and (min-device-width: 400px) {
@@ -112,6 +121,7 @@ html, body {
   text-align: left;
 } */
 
+
 .contact-me p {
   /* border-bottom: 1px solid black;
   padding-bottom: 10px; */
@@ -120,8 +130,19 @@ html, body {
   margin-right: auto;
 }
 
-.email {
-  padding-top: 50px;
+.contact-email {
+  padding-top: 30px;
+
+}
+
+.contact-phone {
+  margin-bottom: 20px;
+}
+
+.contact-main-text p {
+  padding: 10px 0 10px 0;
+  border-top: 1.5px solid white;
+  border-bottom: 1.5px solid white;
 }
 
 /* .header {
@@ -258,6 +279,11 @@ html, body {
 #skill-list {
   margin-left: 50px;
 }
+/* **** Form **** */
+
+.form-control{
+  width: 80%;
+}
 
 /* **** Footer **** */
 
@@ -328,7 +354,7 @@ body {
 }
 
 p {
-  font-family: Georgia, Times, serif;
+  font-family: Futura, Helvetica, Arial, sans-serif;
 }
 
 li {
@@ -369,6 +395,19 @@ li {
   font-size: 1.2em;
   font-weight: 100;
 }
+
+#contact h1{
+  text-align: left;
+  margin-top: 0px;
+}
+
+.contact-me {
+  font-size: 1.2em;
+}
+
+/* .contact-me h1{
+  text-decoration: underline;
+} */
 
 .row p{
   font-family: Futura, Helvetica, Arial, sans-serif;
