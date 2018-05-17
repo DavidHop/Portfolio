@@ -119,8 +119,8 @@
         <div class="row">
           <div class="col-xs-12 col-md-4">
             <h2>Portfolio Concept</h2>
-            <p>My portfolio will showcase my ability to create projects that are visually appealing, easy to navigate, and have cutting edge funtionality. Although I am new to development, with a meticulous work habit and my ability to learn quickly, I will be an irreplacable asset to any company.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <p>My portfolio will <a href="#work" title="More Information" id="item1" data-placement="bottom">showcase</a> my ability to create projects that are visually appealing, easy to navigate, and have cutting edge funtionality. Although I am new to development, with a meticulous work habit and my ability to learn quickly, I will be an irreplacable asset to any company.</p>
+            <p><a class="btn btn-default" href="#" role="button" data-toggle="tooltip" data-placement="top" title="tooltop on top">View details &raquo;</a></p>
           </div><!-- /col -->
           <div class="col-xs-12 col-md-4">
             <h2>Project Goals</h2>
@@ -171,7 +171,7 @@
           <div class="modal-button col-xs-12 col-md-6">
             <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
           </div><!-- end modal-button -->
-          <div class="modal fade bs-example-modal-lg col-xs-12 col-md-6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
@@ -363,6 +363,7 @@
     <!-- All your JavaScript comes now -->
     <!-- ============================= -->
 
+
     <script>
       var $root = $('html, body');
 $('.navbar-nav a').click(function() {
@@ -376,5 +377,19 @@ $('.navbar-nav a').click(function() {
   }
 });
     </script>
+
+    <script>
+     $(function () {
+       $('#item1').tooltip();
+       $('[data-toggle="tooltip"]').tooltip();
+     });
+    </script>
+
+    <!-- <script>
+      $(function () {
+
+      });
+    </script> -->
+
   </body>
 </html>
