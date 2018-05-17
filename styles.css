@@ -1,6 +1,10 @@
 body {
   position: relative;
+}
 
+html, body {
+  height: 100%;
+  background-color: #3D3D3D;
 }
 
 * {
@@ -11,156 +15,13 @@ body {
   margin: 0px auto;
   width: 100%;
   padding: 50px 40px;
-
 }
-
-.anchor {
-  /* padding-top: 110px; */
-  margin: 0px auto;
-  width: 100%;
-  /* padding: 110px 0px; */
-
-}
-
-.modal-button {
-  float: right;
-  padding: 0px 100px 15px 125px;
-}
-
-
-#work {
-  background-image: url("../img/yosemite.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  background-attachment: scroll;
-  width: 100%;
-  height: auto;
-}
-
-
-/* @media only screen and (min-device-width: 400px) {
-    #work {
-      background-repeat: no-repeat;
-      background-size: contain ;
-  }
-} */
-
- #about {
-  background-image: url("../img/greywood.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  background-attachment: scroll;
-  padding: 50px 0;
-  color: white;
-  width: 100%;
-  height: auto;
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
-}
-/* @media only screen and (min-device-width: 400px) {
-    #about {
-      background-repeat: no-repeat;
-      background-size: contain ;
-  }
-} */
-
-#contact  {
-  background-image: url("../img/sky.jpeg");
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-  background-attachment: scroll;
-  color: white;
-  padding: 50px 0;
-  width: 100%;
-  height: auto;
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
-}
-
-.contact-form {
-  padding-top: 25px;
-}
-
-.message-box {
-  margin-bottom: 5px;
-}
-
-/* @media only screen and (min-device-width: 400px) {
-    #contact {
-      background-repeat: no-repeat;
-      background-size: contain ;
-  }
-} */
-
-.goals {
-  padding: 50px 0;
-  border-top: 1.5px solid #B9B9B9;
-  border-bottom: 1.5px solid #B9B9B9;
-}
-
-html, body {
-  height: 100%;
-  background-color: #3D3D3D;
-
-}
-/*
-.wrapper {
-  margin: 0 auto;
-  width: 80%;
-  text-align: center;
-} */
 
 .main-text {
   margin: 0 auto;
-
 }
 
-.column {
-  display: inline-block;
-  width: 50%;
-
-}
-/*
-.column p {
-  text-align: left;
-} */
-
-
-.contact-me p {
-  /* border-bottom: 1px solid black;
-  padding-bottom: 10px; */
-  /* width: 50%; */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contact-email {
-  padding-top: 30px;
-
-}
-
-.contact-phone {
-  margin-bottom: 20px;
-}
-
-.contact-main-text p {
-  padding: 10px 0 10px 0;
-  border-top: 1.5px solid white;
-  border-bottom: 1.5px solid white;
-}
-
-/* .header {
-  border: 3px solid #FFF;
-} */
-
-.questions {
-  margin: 65px auto 30px auto;
-  border: solid;
-  border-color: #000000;
-}
+/* Navbar Section */
 
 .navbar a {
   color: white;
@@ -176,17 +37,11 @@ html, body {
   font-family: Futura, Helvetica, Arial, sans-serif;
 }
 
-.footer a:visited {
-       color: #ff0000;
-}
-
 .david-hopkins {
   text-transform: uppercase;
 }
 
-/* .DavidHopkins a {
-  color: white;
-} */
+/* Hero Section */
 
 .carousel {
   margin-left: -15px;
@@ -198,54 +53,36 @@ html, body {
   color: white;
 }
 
-.panel-body {
-  background-color: grey;
-  color: white;
+/* Bio Page */
+
+.anchor {
+  margin: 0px auto;
+  width: 100%;
 }
 
-.panel-heading {
-  background-color: black;
-  color: white;
+.goals {
+  padding: 0;
+  border-top: 1.5px solid #B9B9B9;
+  border-bottom: 1.5px solid #B9B9B9;
 }
 
-#work {
-  padding-top: 80px;
+/* About Section */
+
+ #about {
+  background-image: url("../img/greywood.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-attachment: scroll;
+  padding: 50px 0;
+  color: white;
+  width: 100%;
+  height: auto;
+  border-top: 1.5px solid black;
   border-bottom: 1.5px solid black;
-
 }
-
-#workhead {
-  text-align: center;
-}
-
-.row {
-  padding: 0px;
-}
-
-.row .col-xs-12 {
-  margin: 30px auto;
-}
-
-.row .col-sm-6 {
-  margin: 30px auto;
-}
-
-.row .col-md-3 {
-  margin: 30px auto;
-}
-
-
-/* .goals .row .col-xs-12 {
-  padding: auto 30px;
-}
-.goals .row .col-sm-12 {
-  padding: auto 30px;
-} */
-
-
 
 /* About Me Styles */
-
 
 #about .header {
   text-align: center;
@@ -257,17 +94,8 @@ html, body {
   width: 33.33333333333333%;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 50%; */
-}
-
 #about .main-text {
   clear: both;
-
-
 }
 
 #about .intro {
@@ -286,79 +114,172 @@ html, body {
 #skill-list {
   margin-left: 50px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-button {
+  float: right;
+  padding: 0px 100px 15px 125px;
+}
+
+/* Work Section */
+
+#work {
+  background-image: url("../img/yosemite.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-attachment: scroll;
+  width: 100%;
+  height: auto;
+}
+
+#work {
+  padding-top: 80px;
+  border-bottom: 1.5px solid black;
+}
+
+#workhead {
+  text-align: center;
+}
+
+.row .col-xs-12 {
+  margin: 30px auto;
+}
+
+.row .col-sm-6 {
+  margin: 30px auto;
+}
+
+.row .col-md-3 {
+  margin: 30px auto;
+}
+
+/* FAQ Section */
+
+#faq h1 {
+  padding-bottom: 20px;
+}
+
+.questions {
+  margin: 65px auto 30px auto;
+  border: solid;
+  border-color: #000000;
+}
+
+.panel-body {
+  background-color: grey;
+  color: white;
+}
+
+.panel-heading {
+  background-color: black;
+  color: white;
+}
+
+/* Contact Section */
+
+#contact  {
+  background-image: url("../img/sky.jpeg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: scroll;
+  color: white;
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+
+.contact-me p {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.contact-email {
+  padding-top: 30px;
+}
+
+.contact-phone {
+  margin-bottom: 20px;
+}
+
+.contact-main-text p {
+  padding: 10px 0 10px 0;
+  border-top: 1.5px solid white;
+  border-bottom: 1.5px solid white;
+}
+
 /* **** Form **** */
 
 .form-control{
   width: 80%;
 }
 
-/* **** Footer **** */
+.contact-form {
+  padding-top: 25px;
+}
+
+.message-box {
+  margin-bottom: 5px;
+}
+
+/* Video Section */
+
+
+/* Footer Section */
 
 footer {
   padding-top: 20px;
   padding-bottom: 30px;
-  text-align:center;
+  text-align: center;
   color: #B9B9B9;
   border-top: 1.5px solid #B9B9B9;
 }
 
+.footer a:visited {
+  color: #ff0000;
+}
+
 /* Typography */
-/* Typography Contact Page*/
+
+body {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
 
 h1 {
   text-align: center;
-  font-family: Futura, Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-
 }
 
 h2 {
   text-align: center;
   letter-spacing: .1em;
-  font-family: Futura, Helvetica, Arial, sans-serif;
   font-weight: 100;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-
 }
 
 h3 {
   text-align: center;
-  font-family: Futura, Helvetica, Arial, sans-serif;
 }
 
 body {
-  font-family: Futura, Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 400;
   background-color: #3D3D3D;
   color: white;
 }
 
-.contact-me {
-  color: white;
+.row h2 {
+  letter-spacing: 0em;
 }
-
-.questions {
-  color: white;
-}
-
-.header {
-  text-transform: none;
-  text-transform: uppercase;
-}
-
-.email
-.phone {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
-  text-transform: inherit;
-}
-
-.main-text {
-  font-weight: 400;
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-
-}
-
 
 .navbar-inverse .navbar-nav>li>a:hover {
   color: #027625;
@@ -366,28 +287,35 @@ body {
   -webkit-transition: color 600ms;
 }
 
-p {
-  font-family: Futura, Helvetica, Arial, sans-serif;
+.carousel-caption p {
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
-li {
-  font-family: Georgia, Times, serif;
+.header {
+  text-transform: none;
+  text-transform: uppercase;
 }
 
+.main-text {
+  font-weight: 400;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.main-text p {
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.email
+.phone {
+  text-transform: inherit;
+}
 
 .intro p {
-  font-family: Futura, Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   font-weight: 100;
   -webkit-margin-before: 0;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-
-}
-
-.main-text p {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
-  font-weight: 100;
 }
 
 .learn-more {
@@ -397,6 +325,21 @@ li {
   padding-left: 100px;
 }
 
+.skills h3 {
+  text-align: center;
+  font-weight: 100;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+#skill-list li {
+  font-weight: 100;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.skills{
+  font-size: 1.2em;
+  font-weight: 100;
+}
 
 .modal-content {
   color: black;
@@ -404,35 +347,9 @@ li {
 }
 
 #modalembed {
-    height: 500px;
-    width: 100%;
-    padding: 10px;
-}
-
-.skills h3 {
-  text-align: center;
-  /* text-transform: uppercase; */
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-
-}
-
-#skill-list li {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-
-
-}
-
-.skills{
-  /* background-color: #5AD4c2; */
-  color: white;
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
-  font-weight: 100;
+  height: 500px;
+  width: 100%;
+  padding: 10px;
 }
 
 #contact h1{
@@ -444,27 +361,12 @@ li {
 .contact-me {
   font-size: 1.2em;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
-
-}
-
-/* .contact-me h1{
-  text-decoration: underline;
-} */
-
-.row p{
-  font-family: Futura, Helvetica, Arial, sans-serif;
-
-}
-.row h2{
-  letter-spacing: 0em;
-}
-
-.carousel-caption p {
-  font-family: Futura, Helvetica, Arial, sans-serif;
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
 .form-group {
   text-shadow: 0px 0px 2px black, 0 0 50px black, 0 0 5px black;
+}
 
+footer {
+  letter-spacing: .1em;
 }
