@@ -27,11 +27,12 @@ $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
   });
 
-  $('#button').on('click', function() {
+  $('#submit-button').on('click', function() {
     console.log('clicked');
     var comment = $('.message-box').val();
     $('#visible-comment').html(comment);
     $('.message.box').hide();
+    $('.message-box').css('background-color', 'blue');
     return false;
   });
 });
