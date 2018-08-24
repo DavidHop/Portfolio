@@ -9,7 +9,6 @@
 
 $(document).ready(function(){
   alert("Document is ready!");
-
   var $root = $('html, body');
   $('.navbar-nav a').click(function() {
     var href = $.attr(this, 'href');
@@ -20,6 +19,8 @@ $(document).ready(function(){
       window.location.hash = href;
       });
     }
+    // work section
+    console.log(works);
   });
 
   $(function () {
@@ -51,8 +52,18 @@ $(document).ready(function(){
       $("#char-count").css("color", "red");
     } else {
       $("#char-count").css("color", "black");
-
-
     };
+  });
+
+  $("#submit-button").on('click', function() {
+      console.log('comment');
+      var comment = $('.message-box').val();
+        $('.message-box').html(comment);
+          if(comment === "") {
+          $(".message-box").css("border", "2px solid red");
+        } else {
+          $('.message-box').hide();
+        };
+      return false;
   });
 });
