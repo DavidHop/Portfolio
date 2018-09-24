@@ -1,10 +1,10 @@
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+(function(d, s, id){
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) {return;}
+   js = d.createElement(s); js.id = id;
+   js.src = "https://connect.facebook.net/en_US/sdk.js";
+   fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
 
 
 $(document).ready(function(){
@@ -19,9 +19,22 @@ $(document).ready(function(){
       window.location.hash = href;
       });
     }
-    // work section
-    console.log(works);
-  });
+});
+
+// work section
+for(var i = 0; i < works.length; ++i ) {
+  $("#work").append("\
+  <div class='col-xs-12 col-sm-6 col-md-3'>\
+    <img src='" + works[i] + "' alt='kitten' class='img-responsive'>\
+    </div>\
+");
+var images = $("#work img");
+  if(i%2 === 0){
+    $(images[i]).css("border", "2px solid DodgerBlue");
+  } else {
+    $(images[i]).css("border", "2px solid salmon");
+  };
+};
 
   $(function () {
     $('#item1').tooltip();
@@ -55,15 +68,15 @@ $(document).ready(function(){
     };
   });
 
-  $("#submit-button").on('click', function() {
-      console.log('comment');
-      var comment = $('.message-box').val();
-        $('.message-box').html(comment);
-          if(comment === "") {
-          $(".message-box").css("border", "2px solid red");
-        } else {
-          $('.message-box').hide();
-        };
-      return false;
-  });
+  // $("#submit-button").on('click', function() {
+  //     console.log('comment');
+  //     var comment = $('.message-box').val();
+  //       $('.message-box').html(comment);
+  //         if(comment === "") {
+  //         $(".message-box").css("border", "2px solid red");
+  //       } else {
+  //         $('.message-box').hide();
+  //       };
+  //     return false;
+  // });
 });
