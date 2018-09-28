@@ -27,11 +27,16 @@ for(var i = 0; i < works.length; ++i ) {
   <div class='col-xs-12 col-sm-6 col-md-3'>\
     <a href='#' class='work-img'>\
       <img src='" + works[i].pic + "' alt='kitten' class='img-responsive'>\
-      <span class='info'><p class='proj-title'>Title:</p>  [First Project] </span>\
+      <span class='info'><p class='proj-title'>Title:</p> " + works[i].title + " </span>\
     </a>\
   </div>\
 ");
 
+$(".work-img").mouseenter(function(){
+  $(".info", this).show();
+}).mouseleave(function(){
+  $(".info", this).hide();
+});
 
 var images = $("#work img");
   if(i%2 === 0){
