@@ -167,10 +167,11 @@ html, body {
 }
 
 .info {
+  display: none;
   position: absolute;
-  top: 15%; 
+  top: 15%;
   left: 22%;
-  color: #fff;
+  color: #027625;
   font-family: Futura;
   text-transform: uppercase;
   font-weight: 700;
@@ -180,6 +181,7 @@ html, body {
 
 .proj-title {
   font-weight: 100;
+  color: #027625;
 }
 
 /* FAQ Section */
