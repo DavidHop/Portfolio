@@ -24,8 +24,8 @@ $(document).ready(function(){
 // work section
 for(var i = 0; i < works.length; ++i ) {
   $("#work").append("\
-  <div class='col-xs-12 col-sm-6 col-md-3'>\
-    <a href='#' class='work-img'>\
+  <div class='col-xs-12 col-sm-6 col-md-3 '>\
+    <a href='#' class='work-img work-tumbnail'>\
       <img src='" + works[i].pic + "' alt='kitten' class='img-responsive'>\
       <span class='info'><p class='proj-title'>Title:</p> " + works[i].title + " </span>\
     </a>\
@@ -37,6 +37,13 @@ $(".work-img").mouseenter(function(){
 }).mouseleave(function(){
   $(".info", this).hide();
 });
+
+$("#workImg").mouseenter(function(){
+  $(".info", this).show();
+}).mouseleave(function(){
+  $(".info", this).hide();
+});
+
 
 var images = $("#work img");
   if(i%2 === 0){
@@ -77,6 +84,8 @@ var images = $("#work img");
       $("#char-count").css("color", "black");
     };
   });
+
+
 
   // $("#submit-button").on('click', function() {
   //     console.log('comment');
