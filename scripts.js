@@ -25,9 +25,14 @@ $(document).ready(function(){
 for(var i = 0; i < works.length; ++i ) {
   $("#work").append("\
   <div class='col-xs-12 col-sm-6 col-md-3'>\
-    <img src='" + works[i] + "' alt='kitten' class='img-responsive'>\
-    </div>\
+    <a href='#' class='work-img'>\
+      <img src='" + works[i].pic + "' alt='kitten' class='img-responsive'>\
+      <span class='info'><p class='proj-title'>Title:</p>  [First Project] </span>\
+    </a>\
+  </div>\
 ");
+
+
 var images = $("#work img");
   if(i%2 === 0){
     $(images[i]).css("border", "2px solid DodgerBlue");
