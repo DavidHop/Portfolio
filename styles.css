@@ -159,6 +159,29 @@ html, body {
   margin: 30px auto;
 }
 
+.work-img {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  top: 15%; 
+  left: 22%;
+  color: #fff;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+}
+
+.proj-title {
+  font-weight: 100;
+}
+
 /* FAQ Section */
 
 #faq h1 {
@@ -229,6 +252,10 @@ html, body {
 
 .message-box {
   margin-bottom: 5px;
+}
+
+.textarea-error {
+  border: 2px solid red;
 }
 
 /* Video Section */
